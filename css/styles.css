@@ -1,0 +1,91 @@
+@import url(./normalize.css);
+@import url(./reset.css);
+
+body {
+    background-color: #2b2b2b;
+    /* Dark grey */
+    font-family: 'Goudy Old Style', 'Garamond', 'Times New Roman', serif;
+    /* Medieval font */
+}
+
+#text {
+    background-color: #2b2b2b;
+    /* Dark grey */
+    color: #e0d6ac;
+    /* Light yellow */
+    padding: 10px;
+}
+
+#game {
+    max-width: 800px;
+    /* Increased width for a more immersive experience */
+    background-color: #d9c184;
+    /* Light brown */
+    color: #2b2b2b;
+    /* Dark grey */
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    /* Increased padding for better readability */
+    border-radius: 10px;
+    /* Rounded corners for a more elegant look */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    /* Shadow effect for depth */
+}
+
+#controls,
+#stats {
+    border: 2px solid #2b2b2b;
+    /* Dark grey */
+    color: #2b2b2b;
+    /* Dark grey */
+    padding: 10px;
+    background-color: #d9c184;
+    /* Light brown */
+    margin-top: 10px;
+    /* Separate controls and stats section */
+}
+
+#monsterStats {
+    display: none;
+    border: 2px solid #2b2b2b;
+    /* Dark grey */
+    padding: 10px;
+    color: #fff;
+    /* White */
+    background-color: #8b0000;
+    /* Dark red */
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+.stat {
+    padding-right: 10px;
+}
+
+button {
+    cursor: pointer;
+    color: #2b2b2b;
+    /* Dark grey */
+    background-color: #d9c184;
+    /* Light brown */
+    border: 2px solid #2b2b2b;
+    /* Dark grey */
+    font-family: 'Goudy Old Style', 'Garamond', 'Times New Roman', serif;
+    /* Medieval font */
+    padding: 10px 20px;
+    /* Increased padding for better clickability */
+    transition: all 0.3s ease;
+    /* Smooth transition */
+}
+
+button:hover {
+    background-color: #e0d6ac;
+    /* Light yellow */
+    border-color: #e0d6ac;
+    /* Light yellow */
+    color: #2b2b2b;
+    /* Dark grey */
+}
